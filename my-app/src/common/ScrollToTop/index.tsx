@@ -25,7 +25,8 @@ const ScrollToTop = () => {
   }, []);
 
   const scrollUp = () => {
-    const element = document.getElementById("intro") as HTMLDivElement;
+    console.log('hiiiii');
+    const element = document.getElementById("wizard") as HTMLDivElement;
     element.scrollIntoView({
       behavior: "smooth",
       block: "end",
